@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+    <head>
+        <title>n進法変換Bot</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <div id="main-background">
+            <h1 class="title-header">N進法変換練習</h1>
+            <h2 class="label-text"><span class="text-dest" id="dest-id">2</span>進法に変換してください</h2>
+            <h2 class="question-text"><span id="que-id"></span><span class="brace-text">(<span id="src-id"></span>)</span></h2>
+            <h2 id="answer" class="answer-text">解答:&nbsp;<span id="ans-id"></span></h2>
+            <button class="green-button answer-button" role="button" onclick="onAnswerButtonClick()">答えを表示</button>
+            <button class="green-button reroll-button" role="button" onclick="onRerollButtonClick()">リロール</button>
+        </div>
+    </body>
+</html>
